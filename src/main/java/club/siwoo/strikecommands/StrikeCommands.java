@@ -21,6 +21,7 @@ public final class StrikeCommands extends JavaPlugin implements Listener {
     public void onEnable() {
         this.api = StrikePractice.getAPI();
         registerCommands();
+        checkConfig();
     }
 
     public void registerCommands() {
@@ -36,7 +37,7 @@ public final class StrikeCommands extends JavaPlugin implements Listener {
 
     public void createConfig() {
         config.addDefault("enable", true);
-        config.addDefault("prefix", StrikeCommands);
+        config.addDefault("prefix", "[StrikeCommands]");
 
         config.options().copyDefaults(true);
         newConfigz.save(newConfig);
