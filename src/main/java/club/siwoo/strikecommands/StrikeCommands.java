@@ -31,6 +31,15 @@ public final class StrikeCommands extends JavaPlugin implements Listener {
         newConfig = new File(getDataFolder(), "config.yml");
         newConfigz = YamlConfiguration.loadConfiguration(newConfig);
         saveNewConfig();
+        createConfig();
+    }
+
+    public void createConfig() {
+        config.addDefault("enable", true);
+        config.addDefault("prefix", StrikeCommands);
+
+        config.options().copyDefaults(true);
+        newConfigz.save(newConfig);
     }
 
     public void saveNewConfig() {
