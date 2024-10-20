@@ -1,3 +1,7 @@
 name: StrikeCommands
 version: '${project.version}'
 main: club.siwoo.strikecommands.StrikeCommands
+commands:
+  forcewin:
+    usage: /forcewin (fight/round)
+    description: "(Admin Only) Forces to win the fight."
