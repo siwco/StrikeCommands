@@ -1,0 +1,3 @@
+name: StrikeCommands
+version: '${project.version}'
+main: club.siwoo.strikecommands.StrikeCommands
