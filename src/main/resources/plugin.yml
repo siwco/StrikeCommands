@@ -1,5 +1,7 @@
 name: StrikeCommands
 version: '${project.version}'
+author: Siwoo
+website: siwoo.lol, siwoo.club
 main: club.siwoo.strikecommands.StrikeCommands
 commands:
   forcewin:
