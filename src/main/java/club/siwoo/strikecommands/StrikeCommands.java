@@ -6,12 +6,12 @@ public final class StrikeCommands extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
+        getLogger().info("[StrikeCommands] Hello!");
 
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        getLogger().info("[StrikeCommands] Goodbye!");
     }
 }
