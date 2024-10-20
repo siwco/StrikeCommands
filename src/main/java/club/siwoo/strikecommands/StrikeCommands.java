@@ -7,7 +7,6 @@ public final class StrikeCommands extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("[StrikeCommands] Hello!");
-
     }
 
     @Override
